@@ -149,6 +149,18 @@ namespace AssignmentOOP05
 
             #endregion
 
+            #region Part02 7-Static Class
+
+            //7-Static Class
+
+            //DeliveryUtilities.PrintSeparator();
+            //Console.WriteLine("Delivery Center");
+            //DeliveryUtilities.PrintSeparator();
+
+            //DeliveryUtilities.PrintSystemTitle();
+
+            #endregion
+
         }
     }
 }
