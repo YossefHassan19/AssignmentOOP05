@@ -54,6 +54,22 @@
 
             #endregion
 
+            #region Part01 Question04
+
+            //a)What is an Extension Method?
+            //Extension Method let you add new methods to existing types without modifying the original type or creating new derived type
+
+            //b)What keyword must be used in the first parameter of an extension method?
+            //First parameter must use this
+
+            //c)Where must an extension method be declared?
+            //In a stetic class
+
+            //d)Can an extension method access private members of the class it extends?
+            //No, because they are not actually part of the type
+
+            #endregion
+
         }
     }
 }
