@@ -37,6 +37,23 @@
 
             #endregion
 
+            #region Part01 Question03
+
+            //a)What is a static field, and how is it different from an instance field?
+            //Static field belongs to the class, one copy shared by all objects, accessed using class name, created once
+            //Instance field belongs to an object, each object has his own copy, accessed using object refrence, created for each object
+
+            //b)What is a static method? Can a static method directly access instance members?
+            //Static method belongs to the class and can be called without creating object, it cannot directly access instance members because it lacks a this reference  
+
+            //c)What is a static constructor, and when is it executed?
+            //Runs automatically before any static mamber is used
+
+            //d)What is a static class? Can you create an object from a static class?
+            //A class declared as static can't be instantiated
+
+            #endregion
+
         }
     }
 }
