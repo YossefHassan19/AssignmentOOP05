@@ -35,6 +35,7 @@ namespace AssignmentOOP05.Classes
             return $"City:{city},  Street:{street},  BuildingNumber:{buildingNumber} ";
         }
 
+        public DeliveryAddress copy() => new DeliveryAddress(city, street, buildingNumber);
         #endregion
 
     }

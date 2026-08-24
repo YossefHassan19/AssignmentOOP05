@@ -45,5 +45,9 @@ namespace AssignmentOOP05.Classes
             return new StandardShipment(TrackingCode, Description, Weight, DeliveryFee, Destination);
         }
 
+        public override Shipment DeepCopy()
+        {
+            return new StandardShipment(TrackingCode, Description, Weight, DeliveryFee, Destination.copy());
+        }
     }
 }

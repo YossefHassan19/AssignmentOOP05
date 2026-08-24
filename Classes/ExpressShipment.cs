@@ -81,6 +81,11 @@ namespace AssignmentOOP05.Classes
             return new ExpressShipment(TrackingCode, Description, Weight, DeliveryFee, Destination, ExtraFee);
         }
 
+        public override Shipment DeepCopy()
+        {
+            return new ExpressShipment(TrackingCode, Description, Weight, DeliveryFee, Destination.copy(), ExtraFee);
+        }
+
 
         #endregion
     }

@@ -107,6 +107,11 @@ namespace AssignmentOOP05.Classes
             return new InternationalShipment(TrackingCode, Description, Weight, DeliveryFee, Destination, DestinationCountry, CustomsFee);
         }
 
+        public override Shipment DeepCopy()
+        {
+            return new InternationalShipment(TrackingCode, Description, Weight, DeliveryFee, Destination.copy(), DestinationCountry, CustomsFee);
+        }
+
         #endregion
 
     }

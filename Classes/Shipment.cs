@@ -132,6 +132,8 @@ namespace AssignmentOOP05.Classes
 
         public Shipment ShallowCopy() => (Shipment)this.MemberwiseClone();
 
+        public abstract Shipment DeepCopy();
+
         #endregion
 
     }

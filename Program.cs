@@ -116,6 +116,26 @@ namespace AssignmentOOP05
 
             #endregion
 
+            #region Part02 3-Deep Copy
+
+            //3-Deep Copy
+
+            //Shipment shipment1 = new StandardShipment("del", "laptop", 20m, 50m, new DeliveryAddress("cairo", "tahrir", 25));
+            //Shipment shipment2 = shipment1.DeepCopy();
+
+            //shipment1.PrintShipment();
+            //shipment2.PrintShipment();
+
+            //shipment2.Weight = 100m;
+            //shipment2.Destination.city = "Giza";
+
+            //shipment1.PrintShipment();
+            //shipment2.PrintShipment();
+
+            //Console.WriteLine(ReferenceEquals(shipment2.Destination.city,shipment1.Destination.city));
+
+            #endregion
+
         }
     }
 }
