@@ -70,6 +70,22 @@
 
             #endregion
 
+            #region Part01 Question05
+
+            //a)What is a Partial Class?
+            //Partial Class allows you to split the definition of a class into multiple files all parts are combined by the compiler into a signal class
+
+            //b)Why would a developer split one class into multiple files?
+            //To separate auto genrated code from custom code, to allow different team member to extend a class without modifying the original file 
+
+            //c)What is a Partial Method?
+            //Partial Method is a method declaration without an implementation in the class 
+
+            //d)What happens if a declared partial method has no implementation?
+            //The compiler removes the method declaration 
+
+            #endregion
+
         }
     }
 }
