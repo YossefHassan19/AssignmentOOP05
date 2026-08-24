@@ -1,4 +1,6 @@
-﻿namespace AssignmentOOP05
+﻿using AssignmentOOP05.Classes;
+
+namespace AssignmentOOP05
 {
     internal class Program
     {
@@ -83,6 +85,16 @@
 
             //d)What happens if a declared partial method has no implementation?
             //The compiler removes the method declaration 
+
+            #endregion
+
+            #region Part02 1-Object Copying
+
+            //1-Object Copying
+
+            //Shipment shipment1 = new StandardShipment("del","laptop", 20m, 50m, new DeliveryAddress("cairo", "tahrir", 25));
+            //Shipment shipment2 = shipment1;
+            //Console.WriteLine(shipment1.TrackingCode.Equals(shipment2.TrackingCode));
 
             #endregion
 
