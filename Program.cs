@@ -161,6 +161,21 @@ namespace AssignmentOOP05
 
             #endregion
 
+            #region Part02 8-Extension Methods
+
+            //8-Extension Methods
+
+            //Shipment standerd = new StandardShipment("del", "laptop", 20m, 50m, new DeliveryAddress("cairo", "tahrir", 25));
+            //Shipment express = new ExpressShipment("del", "laptop", 20m, 50m, new DeliveryAddress("cairo", "tahrir", 25), 50m);
+            //Shipment international = new InternationalShipment("del", "laptop", 20m, 50m, new DeliveryAddress("cairo", "tahrir", 25), "Egypt", 10m);
+
+            //Console.WriteLine(standerd.GetSummary());
+            //Console.WriteLine(express.GetSummary());
+            //Console.WriteLine(international.GetSummary());
+            //Console.WriteLine(standerd.IsDelivered());
+
+            #endregion
+
         }
     }
 }
