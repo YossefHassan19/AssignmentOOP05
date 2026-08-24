@@ -17,6 +17,8 @@ namespace AssignmentOOP05.Classes
         private decimal deliveryFee;
         public DeliveryAddress Destination { get; set; }
 
+        public static int totalShipmentsCreated;
+
         #endregion
 
         #region Validation 
@@ -88,6 +90,7 @@ namespace AssignmentOOP05.Classes
             weight = 1;
             deliveryFee = 50;
             Destination = new DeliveryAddress("Unknown", "Unknown", 0);
+            totalShipmentsCreated++;
         }
 
         protected Shipment(string tr, string desc, decimal wt, decimal fee, DeliveryAddress dest)
@@ -97,6 +100,13 @@ namespace AssignmentOOP05.Classes
             Weight = wt;
             DeliveryFee = fee;
             Destination = dest;
+            totalShipmentsCreated++;
+        }
+
+        static Shipment()
+        {
+            totalShipmentsCreated = 0;
+            Console.WriteLine("Shipment System Initialized");
         }
 
         #endregion
@@ -133,6 +143,11 @@ namespace AssignmentOOP05.Classes
         public Shipment ShallowCopy() => (Shipment)this.MemberwiseClone();
 
         public abstract Shipment DeepCopy();
+
+        public static int GetTotalShipmentsCreated()
+        {
+            return totalShipmentsCreated;
+        }
 
         #endregion
 

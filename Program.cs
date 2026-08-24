@@ -136,6 +136,19 @@ namespace AssignmentOOP05
 
             #endregion
 
+            #region Part02 4-Static Field, 5-Static Constructor, 6-Static Method
+
+            //4-Static Field, 5-Static Constructor, 6-Static Method
+
+            //Shipment standerd = new StandardShipment("del", "laptop", 20m, 50m, new DeliveryAddress("cairo", "tahrir", 25));
+            //Shipment express = new ExpressShipment("del", "laptop", 20m, 50m, new DeliveryAddress("cairo", "tahrir", 25), 50m);
+            //Shipment international = new InternationalShipment("del", "laptop", 20m, 50m, new DeliveryAddress("cairo", "tahrir", 25), "Egypt", 10m);
+
+            //Console.WriteLine(Shipment.GetTotalShipmentsCreated());
+            //Console.WriteLine(Shipment.totalShipmentsCreated);
+
+            #endregion
+
         }
     }
 }
